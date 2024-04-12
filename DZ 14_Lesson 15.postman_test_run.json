@@ -1,0 +1,424 @@
+{
+	"id": "063da31a-6323-4899-808f-3a5cf59f4ac8",
+	"name": "DZ 14_Lesson 15",
+	"timestamp": "2024-03-14T21:14:26.386Z",
+	"collection_id": "25236352-da3c6dfe-1f4d-4a3b-9ece-1fdb7079dfdc",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 11,
+	"delay": "500",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-03-14T21:14:14.627Z",
+	"totalFail": 6,
+	"results": [
+		{
+			"id": "7837e097-803e-499e-a4e8-0756cd267f19",
+			"name": "signup",
+			"url": "https://qauto.forstudy.space/api/auth/signup",
+			"time": 69,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Check that email in request is valid": true
+			},
+			"testPassFailCounts": {
+				"Check that email in request is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				69
+			],
+			"allTests": [
+				{
+					"Check that email in request is valid": true
+				}
+			]
+		},
+		{
+			"id": "560f8df4-5096-4551-a8e9-9d90be5cff88",
+			"name": "SignUp",
+			"url": "https://qauto.forstudy.space/api/auth/signup",
+			"time": 54,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Check user creation": false
+			},
+			"testPassFailCounts": {
+				"Check user creation": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				54
+			],
+			"allTests": [
+				{
+					"Check user creation": false
+				}
+			]
+		},
+		{
+			"id": "649900db-2e3a-40d7-9d9e-d61c1a397b3d",
+			"name": "signin",
+			"url": "https://qauto.forstudy.space/api/auth/signin",
+			"time": 581,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Body matches string": false,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Body matches string": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				581
+			],
+			"allTests": [
+				{
+					"Body matches string": false,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "9bfb0f7c-70f8-4bd2-9053-0963574b2158",
+			"name": "resetPassword",
+			"url": "https://qauto.forstudy.space/api/auth/resetPassword",
+			"time": 1957,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1957
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "0adb2b25-07b5-492d-afec-ed3c587d35f5",
+			"name": "cars",
+			"url": "https://qauto.forstudy.space/api/cars",
+			"time": 461,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Add Audi TT": true
+			},
+			"testPassFailCounts": {
+				"Add Audi TT": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				461
+			],
+			"allTests": [
+				{
+					"Add Audi TT": true
+				}
+			]
+		},
+		{
+			"id": "0487cfab-0b1e-453a-b6fb-b8ae7c1145e1",
+			"name": "Creates an expense",
+			"url": "https://qauto.forstudy.space/api/expenses",
+			"time": 73,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response time is less than 200ms": true,
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				73
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": true,
+					"Status code is 200": false
+				}
+			]
+		},
+		{
+			"id": "1e06c241-063d-47cf-94f3-01eee6ee8580",
+			"name": "signup Copy",
+			"url": "https://qauto2.forstudy.space/api/auth/signup",
+			"time": 185,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Check that email in request is valid": false,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Check that email in request is valid": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				185
+			],
+			"allTests": [
+				{
+					"Check that email in request is valid": false,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "68d02f56-0e66-4b6d-862b-f7704a3300af",
+			"name": "signup Copy 2",
+			"url": "https://qauto2.forstudy.space/api/auth/signup",
+			"time": 54,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Check that email in request is valid": true
+			},
+			"testPassFailCounts": {
+				"Check that email in request is valid": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				54
+			],
+			"allTests": [
+				{
+					"Check that email in request is valid": true
+				}
+			]
+		},
+		{
+			"id": "f76b168d-6094-4924-a1e1-a278817afe5b",
+			"name": "signin Copy",
+			"url": "https://qauto2.forstudy.space/api/auth/signin",
+			"time": 554,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 200ms": false,
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 200ms": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				554
+			],
+			"allTests": [
+				{
+					"Response time is less than 200ms": false,
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "629bf884-04fc-4ee6-9a0d-189c8f7685cf",
+			"name": "resetPassword Copy",
+			"url": "https://qauto2.forstudy.space/api/auth/resetPassword",
+			"time": 58,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				58
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "45ae8de2-4466-46ba-988d-8de8b5bccece",
+			"name": "cars Copy",
+			"url": "https://qauto2.forstudy.space/api/cars",
+			"time": 69,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true,
+				"Response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				69
+			],
+			"allTests": [
+				{
+					"Status code is 201": true,
+					"Response time is less than 200ms": true
+				}
+			]
+		},
+		{
+			"id": "f3bab636-6268-49f1-a419-43ebaf396815",
+			"name": "Creates an expense Copy",
+			"url": "https://qauto2.forstudy.space/api/expenses",
+			"time": 58,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 200": false
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				58
+			],
+			"allTests": [
+				{
+					"Status code is 200": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4173,
+	"collection": {
+		"requests": [
+			{
+				"id": "7837e097-803e-499e-a4e8-0756cd267f19",
+				"method": "POST"
+			},
+			{
+				"id": "560f8df4-5096-4551-a8e9-9d90be5cff88",
+				"method": "POST"
+			},
+			{
+				"id": "649900db-2e3a-40d7-9d9e-d61c1a397b3d",
+				"method": "POST"
+			},
+			{
+				"id": "9bfb0f7c-70f8-4bd2-9053-0963574b2158",
+				"method": "POST"
+			},
+			{
+				"id": "0adb2b25-07b5-492d-afec-ed3c587d35f5",
+				"method": "POST"
+			},
+			{
+				"id": "0487cfab-0b1e-453a-b6fb-b8ae7c1145e1",
+				"method": "POST"
+			},
+			{
+				"id": "1e06c241-063d-47cf-94f3-01eee6ee8580",
+				"method": "POST"
+			},
+			{
+				"id": "68d02f56-0e66-4b6d-862b-f7704a3300af",
+				"method": "POST"
+			},
+			{
+				"id": "f76b168d-6094-4924-a1e1-a278817afe5b",
+				"method": "POST"
+			},
+			{
+				"id": "629bf884-04fc-4ee6-9a0d-189c8f7685cf",
+				"method": "POST"
+			},
+			{
+				"id": "45ae8de2-4466-46ba-988d-8de8b5bccece",
+				"method": "POST"
+			},
+			{
+				"id": "f3bab636-6268-49f1-a419-43ebaf396815",
+				"method": "POST"
+			}
+		]
+	}
+}

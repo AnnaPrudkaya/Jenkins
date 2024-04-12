@@ -1,0 +1,7 @@
+URL,dataName
+https://qauto.forstudy.space/api,t
+https://qauto.forstudy.space/api,ttestttestttestttestttestttest
+https://qauto.forstudy.space/api,[]
+https://qauto2.forstudy.space/api,t
+https://qauto2.forstudy.space/api,ttestttestttestttestttestttest
+https://qauto2.forstudy.space/api,[]
